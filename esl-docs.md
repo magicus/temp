@@ -1,5 +1,9 @@
 # Bluetooth Tag Protocol
 
+Editor's note:
+This is the Picksmart/Gicisky ESL protocol, as originally found on https://zhuanlan.zhihu.com/p/633113543.
+Translated from Chinese to English courtesy of Google Translate; converted to markdown by @magicus.
+
 ### 1.Request write block size command
 
 | CMD | DATA |
