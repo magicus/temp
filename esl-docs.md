@@ -4,7 +4,7 @@ Editor's note:
 This is the Picksmart/Gicisky ESL protocol, as originally found on https://zhuanlan.zhihu.com/p/633113543.
 Translated from Chinese to English courtesy of Google Translate; converted to markdown by @magicus.
 
-### 1.Request write block size command
+### 1. Request write block size command
 
 | CMD | DATA |
 | --- | --- |
@@ -18,7 +18,7 @@ Response for write block size command
 
 Note: short means low bit first, high bit last
 
-### 2.Request write screen command
+### 2. Request write screen command
 
 | CMD | DATA |    |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Response for write screen command
 | --- | --- |
 | 0x02 | Status  <br>  <br>0:Success  <br>  <br>Other:Fail |
 
-### 3.Request start transfer command
+### 3. Request start transfer command
 
 | CMD | DATA |
 | --- | --- |
@@ -46,7 +46,7 @@ Response for start transfer command
 
 Note: int has low bits first and high bits last
 
-### 4.Request write cancel command
+### 4. Request write cancel command
 
 | CMD | DATA |
 | --- | --- |
@@ -58,7 +58,7 @@ Response for write cancel command
 | --- | --- |
 | 0x04 | Status  <br>  <br>0: Success  <br>  <br>Other: Fail |
 
-### 5.Transfer data packet
+### 5. Transfer data packet
 
 | Index(4 bytes) | DATA(N bytes) |
 | --- | --- |
